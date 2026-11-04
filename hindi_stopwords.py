@@ -1,5 +1,4 @@
-# List of 200 Hindi Stopwords (in English transliteration) with meanings
-# Useful for Natural Language Processing (NLP) tasks in Python
+
 
 HINDI_STOPWORDS = [
     "aur",  # and
@@ -420,9 +419,4 @@ HINDI_STOPWORDS_LIST = [
     "ityadi",
 ]
 
-# Set of Hindi stopwords for fast lookup
-HINDI_STOPWORDS_SET = set(HINDI_STOPWORDS_LIST)
 
-if __name__ == "__main__":
-    print(f"Total stopwords loaded: {len(HINDI_STOPWORDS_LIST)}")
-    print("Sample stopwords:", HINDI_STOPWORDS_LIST[:10])
